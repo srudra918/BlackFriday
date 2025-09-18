@@ -18,4 +18,31 @@ This project analyzes Black Friday sales data to compare product prices, underst
 - Source: [Black Friday Dataset - Kaggle](https://www.kaggle.com/datasets/mehdidag/black-friday)  
 - Contains anonymized customer and purchase data, including product IDs, categories, prices, and quantities.
 
+## Installation & Usage
 
+1. Clone the repository:
+
+```BASH
+git clone https://github.com/<your-username>/BlackFriday.git
+```
+2. Navigate to the project folder:
+```
+cd BlackFriday
+```
+Install required Python packages:
+```
+pip install -r requirements.txt
+```
+Open the Jupyter Notebook in the notebooks/ folder:
+```
+jupyter notebook
+```
+Insights
+
+- Price distribution varies significantly across product categories.
+
+- Some customer segments tend to purchase more expensive items.
+
+- Certain product categories dominate sales during Black Friday.
+
+- Visualizations help identify trends in purchasing behavior and seasonal spikes.
